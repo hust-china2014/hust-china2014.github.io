@@ -113,15 +113,29 @@ article,aside,dialog,footer,header,section,nav,figure,menu{
 }
 
 body {
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.03);
     width: 100%;
     font-size: 16px;
     font-family: 微软雅黑, Calibri, Helvetica;
-    perspective: 1px;
 }
 h1,h2,h3,h4,h5,p {font-size: 16px; color: white;}
 
-
+#return_top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 43px;
+    padding-top: 3px;
+    color: white;
+    font-family: aaa;
+    font-size: 2em;
+    text-align: center;
+    background-color: RGBA(83,167,223,0.7);
+    font-weight: bolder;
+    cursor: pointer;
+    z-index:999;
+}
 
 
 /* ==========================================================================
@@ -223,6 +237,17 @@ h1,h2,h3,h4,h5,p {font-size: 16px; color: white;}
 
 .clearfix {
     *zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearLine {
+    clear: both;
+    height: 1px;
+    margin-top: -1px;
+    overflow: hidden;
 }
 
 /* ==========================================================================

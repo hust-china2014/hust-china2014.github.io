@@ -2,6 +2,21 @@
    Author H.Y. Wang's custom styles
    ========================================================================== */
 
+body {
+    perspective: 1px;
+    font-size: 16px;
+}
+
+::-moz-selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
+::selection {
+    background: #fed136;
+    text-shadow: none;
+}
+
 /* Baesement scroll css */
 .parallax {
     width: 100%;
@@ -53,8 +68,15 @@
 
 }
 
+#nav_future {
+    line-height: 25px;
+}
+#nav_team {
+    line-height: 40px!important;
+}
+
 .parallax__layer__back {
-    background-image: url(../img/banner_bg.png);
+    background-image: url(../img/banner_big.gif);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -62,13 +84,13 @@
     opacity: 0;
 }
 .parallax__layer__back__after {
-    -webkit-transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out;
-    -ms-transition: all 1.5s ease-in-out;
-    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
-    background-image: url(../img/banner_bg.png);
+    background-image: url(../img/banner_big.gif);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -83,7 +105,7 @@
 .parallax__layer__fore .nav{
     width: 110px;
     margin-right: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .parallax__layer__fore .nav a {
@@ -121,7 +143,7 @@
     transform: translateZ(0);
     margin-top: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #ffffff;
     padding-bottom: 80px;
     background-image: url(../img/sec1_bg.png);
     background-repeat: no-repeat;
@@ -129,10 +151,12 @@
 }
 
 #section_first h1 {
-    font-size: 23px;
-    font-weight: lighter;
+    font-family: aaa;
+    font-size: 30px;
+    font-weight: bold;
     padding: 80px 70px 0 70px;
     margin-left: 0;
+    color: #000000;
 }
 /*
 #section_first .h1_animation {
@@ -148,23 +172,24 @@
 
 #section_first p {
     font-family: aaa, 微软雅黑;
-    font-size: 21px;
+    font-size: 20px;
     padding: 0 70px;
     text-align: justify;
+    color: #000000;
 }
 
 
 #section_second {
     position: relative;
+    width: 100%;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     background-color: #dcdada;
     padding: 80px 20px;
 }
 
-#section_second img{
+#home_video{
     display: block;
-    width: 65%;
     margin: 0 auto;
 }
 
@@ -175,11 +200,12 @@
 
 #section_third {
     position: relative;
-    padding: 40px 4% 20px 8%;
+    padding: 20px 4% 20px 8%;
+    background-color: #111a2b;
 }
 
 #section_third img {
-    margin-bottom: 50px;
+    margin-bottom: 115px;
 }
 
 #section_third ul {
@@ -204,7 +230,7 @@
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 
-    color: #AB2926;
+    color: #3498db;
 }
 
 #section_third #contact {
@@ -213,4 +239,9 @@
 
 #section_third #contact h1 {
     font-weight: lighter;
+}
+
+
+#section_third {
+    height: 220px;
 }

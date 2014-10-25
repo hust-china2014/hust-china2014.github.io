@@ -118,7 +118,7 @@ nav ul li {
     transition: all 0.2s ease-in-out;
 
     display: inline-block;
-    width: 24%;
+    width: 19%;
     text-align: center;
     font-family: aaa, 微软雅黑;
     font-size: 1.41em;
@@ -180,19 +180,12 @@ nav ul li:hover {
 }
 
 #stage2 h2 {
-    color: #000000;
-    font-family: aaa, 微软雅黑;
+    font-family: aaa;
     font-size: 1.6em;
+    font-weight: lighter;
 }
 
-#stage5 h3 {
-    color: #000000;
-    font-family: aaa, 微软雅黑;
-    font-size: 1.5em;
-    font-weight: bolder;
-}
-
-#stage2 img, #stage5 img {
+#stage2 img {
     display: block;
     margin: 0 auto;
 }
@@ -214,33 +207,15 @@ nav ul li:hover {
     margin: 0 auto;
 }
 
-#stage3_p1, #stage4_p1, #stage5_p1, #stage5_p1_1 {
+#stage3_p1, #stage4_p1 {
     font-family: bbb;
     font-size: 1.2em;
     text-align: center;
 }
 
-#stage3, #stage4, #stage5 {
+#stage3, #stage4 {
     margin-top: 80px;
     margin-bottom: 50px;
-}
-
-#stage4 ul li {
-    list-style-type: circle;
-    padding-top: 10px;
-    font-family: aaa;
-    font-size: 1.2em;
-}
-
-.stage_p3 {
-    padding-left: 95px;
-}
-
-#para_1 {
-    color: #000000;
-    font-family: aaa, 微软雅黑!important;
-    font-size: 1.25em!important;
-    text-align: left!important;
 }
 
 .s3_part {

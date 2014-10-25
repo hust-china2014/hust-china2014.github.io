@@ -19,6 +19,10 @@
     text-shadow: none;
 }
 
+h3 {
+    color: black;
+
+}
 
 /* ==========================================================================
    Author H.Y. Wang's custom styles
@@ -118,7 +122,7 @@ nav ul li {
     transition: all 0.2s ease-in-out;
 
     display: inline-block;
-    width: 24%;
+    width: 16%;
     text-align: center;
     font-family: aaa, 微软雅黑;
     font-size: 1.41em;
@@ -180,26 +184,19 @@ nav ul li:hover {
 }
 
 #stage2 h2 {
-    color: #000000;
-    font-family: aaa, 微软雅黑;
+    font-family: aaa;
     font-size: 1.6em;
-}
-
-#stage5 h3 {
-    color: #000000;
-    font-family: aaa, 微软雅黑;
-    font-size: 1.5em;
     font-weight: bolder;
 }
 
-#stage2 img, #stage5 img {
+#stage2 img {
     display: block;
     margin: 0 auto;
 }
 
 #stage2 p {
     font-family: bbb;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     font-weight: lighter;
 }
@@ -209,39 +206,61 @@ nav ul li:hover {
 }
 
 
-#stage3 img, #stage4 img {
+#stage3 img, #stage4 img, #stage5 img, #stage7 img,#stage8 img {
     display: block;
     margin: 0 auto;
 }
 
-#stage3_p1, #stage4_p1, #stage5_p1, #stage5_p1_1 {
+#stage3_p1, #stage4_p1 {
     font-family: bbb;
     font-size: 1.2em;
     text-align: center;
 }
 
-#stage3, #stage4, #stage5 {
+#stage3, #stage4, #stage5, #stage7, #stage8 {
     margin-top: 80px;
     margin-bottom: 50px;
 }
 
-#stage4 ul li {
-    list-style-type: circle;
-    padding-top: 10px;
-    font-family: aaa;
-    font-size: 1.2em;
-}
-
-.stage_p3 {
-    padding-left: 95px;
-}
-
-#para_1 {
+#stage2 .content {
     color: #000000;
-    font-family: aaa, 微软雅黑!important;
-    font-size: 1.25em!important;
-    text-align: left!important;
+    font-family: aaa;
+    font-size: 1.25em;
+    font-weight: normal;
+    text-align: left;
 }
+
+.biaozhu {
+    width: 800px!important;
+    margin: 20px auto 40px auto!important;\
+    font-family: bbb!important;
+    font-size: 1em!important;
+    text-align: center;
+}
+
+#stage6 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#stage6 h2 {
+    font-family: bbb;
+    font-size: 2.3em;
+    margin: 0;
+}
+
+#stage7 a {
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin: 5px auto;
+    width: 445px;
+}
+#stage7 a:hover {
+    text-decoration: underline;
+}
+
+
 
 .s3_part {
     display: inline-block;
