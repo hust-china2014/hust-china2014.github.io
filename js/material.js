@@ -40,4 +40,9 @@ $(document).ready(function(){
         }
     });
 
+    $('#return_top').click(function(){
+        //alert($(window).scrollTop());
+        $.scrollTo ( 0 , 1000);
+    });
+
 });

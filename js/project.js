@@ -43,15 +43,15 @@ $(document).ready(function(){
         if($(window).scrollTop() < 245) {
             $('.down_nav').removeClass("clicked");
         }
-        else if($(window).scrollTop() >= 245 && $(window).scrollTop() < 851){
+        else if($(window).scrollTop() >= 245 && $(window).scrollTop() < 787){
             $('.down_nav').removeClass("clicked");
             $('#down_nav_1').addClass("clicked");
         }
-        else if($(window).scrollTop() >= 851 && $(window).scrollTop() < 1314){
+        else if($(window).scrollTop() >= 787 && $(window).scrollTop() < 1249){
             $('.down_nav').removeClass("clicked");
             $('#down_nav_2').addClass("clicked");
         }
-        else if($(window).scrollTop() >= 1314 && $(window).scrollTop() < 1818){
+        else if($(window).scrollTop() >= 1249 && $(window).scrollTop() < 1754){
             $('.down_nav').removeClass("clicked");
             $('#down_nav_3').addClass("clicked");
         }
